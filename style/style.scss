@@ -1,0 +1,36 @@
+// colors
+$primary-color:#5E88C0 ;
+$second-color:#b11226;
+$third-color:#C0965E;
+$fourth-color:#426EA9;
+$fith-color: black;
+
+.navItems{
+    border: 2px solid $fith-color;
+    display: flex;
+    background-color: $third-color ;
+    align-items: center;
+    height: 100%;
+}
+
+#navbar{
+    border: 2px solid $fith-color;
+    display: flex;
+    background-color:$primary-color ;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1.5em;
+
+}
+#hItem1{// button
+
+}
+#hItem2{
+}
+
+#hItem3{
+}

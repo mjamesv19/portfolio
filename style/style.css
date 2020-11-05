@@ -1,0 +1,22 @@
+.navItems {
+  border: 2px solid black;
+  display: flex;
+  background-color: #C0965E;
+  align-items: center;
+  height: 100%;
+}
+
+#navbar {
+  border: 2px solid black;
+  display: flex;
+  background-color: #5E88C0;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1.5em;
+}
+
+/*# sourceMappingURL=style.css.map */
