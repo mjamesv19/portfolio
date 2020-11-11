@@ -5,9 +5,21 @@ $third-color:#C0965E;
 $fourth-color:#426EA9;
 $fifth-color: black;
 
+//testing borders
 // div, section{
 //     border: solid black 1px;
 // }
+
+//foot & text size
+h1{
+    font-family: "Times New Roman";
+    font-size: 2rem;
+}
+p{
+    font-family: "Times New Roman";
+    font-size: 1.2rem;
+}
+
 //DROP DOWN MENU 
 #navMenu{
     display: flex;
@@ -60,6 +72,11 @@ $fifth-color: black;
         width:3rem;
     }
 }
+.navMenuSection1, .navMenuSection2{
+    a:hover{
+        background-color: $second-color;
+    }
+}
 
 #navMenu:target{
     // this makes it so the nav bar is moved onto the screen when pressed
@@ -87,16 +104,180 @@ $fifth-color: black;
     align-items: center;
     height: 100%;
     height: 1.5em;
+    h1{
+        font-size: 1.5rem;
+    }
 }
+
 #OpenNavButton{
     width: 1.5rem;
     height: 1.5rem;
 }
+#OpenNavButton:hover{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: $second-color;
+}
+
 
 
 
 //MAIN
-main{
-    display: flex;
-    margin-top: 1.5em;
+body{
+    background-color: $third-color;
 }
+.Main-Content{
+    display: flex;
+    //margin: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: column;
+
+}
+.Main-Heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: $third-color;
+
+}
+.Main-Body{
+    display: flex;
+}
+.Main-Image-box{
+    display: flex;
+    width: 50%;
+    border: dotted $second-color 5px;
+    margin-bottom: 0.2rem;
+
+}
+.Main-Image{
+    width: 100%;
+}
+
+// Blog 
+.blogBox{
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+.blogs{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $third-color;
+    flex-direction: column;
+}
+.blog-title{
+    display: flex;
+}
+.imageSection{
+    display: flex;
+    width: 90%;
+    border: dotted $second-color 5px;
+    margin-bottom: 0.2rem;
+}
+.blogImage{
+    width: 100%;
+}
+.textSection{
+    display: flex;
+    border: dotted $second-color 5px; 
+    width: 90%;
+}
+
+
+//Responsive Design
+@media screen and (min-width: 600px) {
+    //DROP DOWN MENU 
+#navMenu{
+    display: flex;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    margin-left: -2000px;
+    padding-top: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $third-color;
+    border: $primary-color solid 5px ;
+    justify-content: space-around;
+}
+
+.navMenuSection1 {
+    display: flex;
+    flex-direction: column;
+    left:0;
+    width:80%;
+    
+    a{
+        display:flex;
+        color: black;
+        text-decoration: none;
+        background-color: $primary-color;
+        margin-bottom: 1rem;
+        justify-content: center;
+        font-size: 2rem;
+        border: $second-color solid 1px;
+    }
+}
+.navMenuSection2 {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: flex-end;
+    a{
+        display:flex;
+        background-color: $primary-color;
+        justify-content: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        border: $second-color solid 1px;
+    }
+    img{
+        width:3rem;
+    }
+    
+}
+//Page changes
+//Main
+.Main-Content{
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: row;
+
+}
+.Main-Heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+.Main-Body{
+    display: flex;
+}
+.Main-Image-box{
+    display: flex;
+    width: 50%;
+    border: dotted $second-color 5px;
+    margin-bottom: 0.2rem;
+
+}
+.Main-Image{
+    width: 100%;
+}
+
+
+
+}
+
+
