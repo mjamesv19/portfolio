@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://michaeljv-portfolio.netlify.app/pages/page2 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Vick</title>
+    <link rel="stylesheet" href="./About mePC_files/style.css" integrity="sha384-A/L1QA5n88AbSiPWzmiOa5Mhvnn7c4wjIIhAb2dKpvKho2aFXaP/rFj1HC9sWtv+">
+
+</head>
+
+
+
+<body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
+    <!-- navigation bar at the top -->
+    <navbar id="navbar"> 
+        <a id="nItem1" class="navItems" href="https://michaeljv-portfolio.netlify.app/pages/page2#navMenu">
+            <img id="OpenNavButton" src="./About mePC_files/Menu-icon.png" alt="broken image">
+        </a>
+        <section id="nItem2" class="navItems">
+            <h1>Michael Vick</h1>
+        </section>
+        <section id="nItem3" class="navItems">
+            ###
+        </section>
+    </navbar>
+    <!--  -->
+    <!-- navigation menu  goes over the top of everything else-->
+    <!-- using target to hide and show on button press.-->
+    <section id="navMenu">
+        <!-- navigation options -->
+        <section class="navMenuSection1">
+            <a href="https://michaeljv-portfolio.netlify.app/index.html" class="NavLinks">Home</a>
+            <a href="https://michaeljv-portfolio.netlify.app/pages/page2#" class="NavLinks">About Me</a>
+            <a href="https://michaeljv-portfolio.netlify.app/pages/Page3.html" class="NavLinks">Contact</a>
+            <a href="https://michaeljv-portfolio.netlify.app/pages/Page4.html" class="NavLinks">Blog</a>
+            
+        </section>
+        <!-- close nav menu button -->
+        <section class="navMenuSection2">
+            <a href="https://michaeljv-portfolio.netlify.app/pages/page2#"> 
+                <img src="./About mePC_files/Back-Arrow.png" alt="broken image">
+            </a>
+        </section>
+    </section>
+
+    <!-- main body  -->
+    <section class="Main-Heading"><h1>About Me</h1></section>
+    <main class="Main-Content">
+        <section class="Main-Body">
+            <h2>Who am I!</h2>
+            <p>
+                My name is Michael James Vick, I was born 19/09/1999 at 3:42 pm (3+4+2=9 in case that wasn't enough 9s). I was diagnosed with mild Cerebral Palsy(born with never damage) at a young age, however, it is an extremely mild case and thanks to computers I can overcome all my issues.  I have been interested in computers for as long as I can remember, solving problems with computers and just messing around in them has always brought me joy.  I went to school at Villanova College in Coorparoo where my favorite subjects were math, physics, and programming. I choose to pursue programming when I left school because I love solving problems and programming has proven to be the most fun place to do that. 
+            </p>
+            <h2>Work history</h2>
+            <p>When I left school, I accepted a job offer to be a disability support worker for River North Lifestyles Association Inc. I have annually received first aid and CPR training, as well as more specific training on how to work with my client and allow him to live his best life. The bellow image is a board that I assist my client in using so they can communicate with people.
+            </p>
+        </section>
+        <section class="Main-Image-box">
+            <img class="Main-Image" src="./About mePC_files/board.jpg" alt="broken image">
+        </section>
+        <section class="Main-Body">
+            <h2>My skills</h2>
+            <p>
+                Communication: <br><br>
+My work with River North requires constant communication with my client. I am required to work with him to overcome his difficulties and enable him to communicate. This has allowed me to develop my own skills in communicating with clients
+<br><br>
+Programming:<br><br>
+I am a very logical person, I love learning to program and solve problems with programming. My previous studies only scratched the surface of multiple languages and didn't give me the chance to focus on one language and hone my skills. Though coder Acadamy, I hope to develop more refined coding skills so that I can pursue a carrier in programming. 
+            </p>
+        </section>
+
+    </main>
+    <footer>
+        <a href="https://github.com/mjamesv19" target=" _blank"> My github</a><br>
+        <a href="https://michaeljv-portfolio.netlify.app/documents/Resume.pdf" target=" _blank" download=""> My Resume</a><br>
+        © Michael James Vick. 2020.
+
+    </footer>
+
+
+
+</body></html>
